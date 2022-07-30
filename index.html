@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="favicon/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="favicon/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<!-- Animation -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/kute.js/2.0.0/kute.min.js"></script>
+
+		<title>Hamza Khan</title>
+	</head>
+
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div
+				class="container-fluid animate__animated animate__fadeIn animate__delay-3s"
+			>
+				<!-- Brand Name-->
+				<a class="navbar-brand" href="/">
+					<img
+						src="images/boston_college_logo.png"
+						alt=""
+						height="55em"
+						width="55em"
+					/>
+				</a>
+
+				<!-- Menu Button -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Webpage Links -->
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto">
+						<!-- Home -->
+						<li class="nav-item mx-4">
+							<a
+								id="navbar-item"
+								class="nav-link active"
+								aria-current="page"
+								href="#"
+								>Home</a
+							>
+						</li>
+
+						<!-- About -->
+						<li class="nav-item mx-4">
+							<a
+								id="navbar-item"
+								class="nav-link active"
+								aria-current="page"
+								href="#about-me-section"
+								>About</a
+							>
+						</li>
+
+						<!-- Research -->
+						<li class="nav-item mx-4">
+							<a
+								id="navbar-item"
+								class="nav-link active"
+								aria-current="page"
+								href="#research-title"
+								>Research</a
+							>
+						</li>
+
+						<!-- Teaching -->
+						<li class="nav-item mx-4">
+							<a
+								id="navbar-item"
+								class="nav-link active"
+								aria-current="page"
+								href="#teaching-section"
+								>Teaching</a
+							>
+						</li>
+
+						<!-- Resume -->
+						<!-- <li class="nav-item mx-4">
+							<a class="nav-link active" aria-current="page" href="#">Resume</a>
+						</li> -->
+
+						<!-- Contact -->
+						<li class="nav-item mx-4">
+							<a
+								id="navbar-item"
+								class="nav-link active"
+								aria-current="page"
+								href="#contact-section"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- 
+			Intro Section:
+				- Name: "Omar Naeem"
+				- Description: "Software Engineer"
+				- Button: Down arrows 
+		-->
+		<section id="intro-section">
+			<div id="intro-background-image">
+				<div id="overlay" class="col">
+					<div class="row">
+						<h1 class="animate__animated animate__fadeInUp animate__delay-1s">
+							HAMZ<span id="intro-title-last-character">A</span> KHA<span
+								id="intro-title-last-character"
+								>N</span
+							>
+						</h1>
+					</div>
+					<div class="row">
+						<h2 class="animate__animated animate__fadeInUp animate__delay-2s">
+							DOCTORAL CANDIDATE ORGANIZATION STUDIES <br />
+							<strong>BOSTON COLLEGE</strong>
+						</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<section
+						id="section07"
+						class="demo animate__animated animate__fadeIn animate__delay-3s"
+					>
+						<a href="#about-me-section">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<div class="spacer layer1"></div>
+
+		<!-- 
+			About Me Section:
+				- Title: "About Me"
+				- Profile Image
+				- Description
+		-->
+		<section id="about-me-section">
+			<h3 id="about-me-title">ABOUT ME</h3>
+			<div class="row about-me-container">
+				<div class="col-md-6 col-sm-12 left">
+					<a href="https://www.linkedin.com/in/hamza-khan-aa41111a/">
+						<div
+							class="profile-image"
+							style="background-image: url('../images/hamza_image.jpg')"
+						></div>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-12 right">
+					<!-- <p>
+						Hello! I'm Hamza, a PhD student in Organization Studies at the
+						<strong>Boston College Caroll School of Management</strong>.
+					</p>
+					<p>
+						I am interested in research questions and issues pertaining to how individuals derive their identity from the work that they do and on how they identify with their professions or occupations. 
+					</p>
+					<p>
+						Additionally, I am also interested in how individuals integrate their non-work identities, specifically religious identities in their work and workplace. 
+					</p> -->
+					<!-- I'm interested in
+					<strong>software engineering</strong> roles that pertain to fields
+					such as:
+					<ul>
+						<li>Web/App Development</li>
+						<li>Full-Stack Development</li>
+						<li>UI/UX Design</li>
+						<li>Cloud Infrastructure</li>
+					</ul> -->
+
+					<!-- <p>Feel free to check out my CV and LinkedIn page!</p> -->
+
+					<p>
+						Hello! I'm Hamza, a PhD student in Organization Studies at the
+						<strong>Boston College Caroll School of Management</strong>.
+					</p>
+
+					<p>
+						My research explores how
+						<strong>individuals and organizations</strong> address fundamental,
+						self-defining questions. I study this by relying on two main
+						research streams: (1) <strong>identify</strong>, and (2)
+						<strong>purpose</strong>.
+					</p>
+
+					<p>
+						I am a <strong>field researcher</strong> and use inductive
+						qualitative research methods to study diverse contexts such as a
+						Jewish Service Organization, members of the occupation of Campus
+						Muslim Chaplains, Surgeons and Anesthesiologists, and Business
+						Schools.
+					</p>
+
+					<div class="row buttons-container">
+						<a class="button" href="data/cv.pdf">CV</a>
+						<a
+							class="button button-transparent"
+							href="https://www.linkedin.com/in/hamza-khan-aa41111a/"
+							>LINKEDIN</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <div class="spacer7 layer3"></div> -->
+
+		<!-- 
+			GPA Section
+		-->
+		<!-- <section id="gpa-section">
+			<h3 id="gpa-title">GPA</h3>
+			<div>
+				<span id="gpa-text-large" class="counter" data-target="3.94">0.00</span
+				><span id="gpa-text-small">/4.00</span>
+			</div>
+		</section>
+
+		<div class="spacer7 layer3 flip"></div> -->
+
+		<!-- 
+			Projects:
+				- MVP
+				- Chess AI
+				- State of the Vaccine
+		-->
+		<section class="blueprint" id="research-section">
+			<div name="overlapping" class="spacer layer5"></div>
+
+			<!-- Projects -->
+			<div class="row" style="margin: 10vh 0vh 2.5vh">
+				<h3 id="research-title">RESEARCH</h3>
+			</div>
+
+			<!-- Image Card Layout -->
+			<div class="container">
+				<!--Images Row 1 -->
+				<div id="row">
+					<!--Most Valuable Professor -->
+					<div class="image">
+						<!-- Image Source: https://s3.amazonaws.com/advancedcms-migr/NP3aMQ4PQhyeQ6spJZf0_IMG_2984.JPG -->
+						<img src="images/identity_bricolage.avif" alt="" />
+						<div class="details">
+							<h2>Identity <span>Bricolage</span></h2>
+							<p>
+								A qualitative study of how Campus Muslim Chaplains construct
+								their occupational identity.
+							</p>
+							<div class="more">
+								<a
+									href="https://journals.aom.org/doi/abs/10.5465/AMBPP.2022.17475abstract"
+									class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a> -->
+									<!-- <a href="#"><i class="fas fa-paperclip"></i></a> -->
+									<!-- <a href="https://github.com/omarn33/Most-Valuable-Professor"><i class="fab fa-github"></i></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+
+					<!-- Chess AI -->
+					<div class="image">
+						<!-- Image Source: https://images.unsplash.com/photo-1602968407815-5963b28c66af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80 -->
+						<img src="images/purpose_change.avif" alt="" />
+						<div class="details">
+							<h2>Purpose <span>Change</span></h2>
+							<p>
+								My dissertation explores how organizations react after they have
+								achieved their purpose.
+							</p>
+							<div class="more">
+								<a href="data/purpose_change.pdf" class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://github.com/omarn33/Chess-AI"><i class="fab fa-github"></i></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+				</div>
+				<!--image row end-->
+
+				<!--Image Row 2 -->
+				<div id="row">
+					<!-- State of the Vaccine -->
+					<div class="image">
+						<!-- Image Source: https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3864&q=80 -->
+						<img src="images/moralized_identities.avif" alt="" />
+						<div class="details">
+							<h2>Moralized <span>Identities</span></h2>
+							<p>
+								In a conceptual paper, my co-authors and I explore how social
+								identities can become moralized at work and how organizations
+								can resolve the conflicts caused by such moralization.
+								<!-- In a conceptual paper, my co-authors (Michael G. Pratt and Luke Hedden) and I explore how social identities can become moralized – take on a moral value – at work and how organizations can resolve the conflicts caused by such moralization. We argue that since moralization is an emotional process, emotions-based interventions such as eliciting and validating emotional ambivalence work best to diminish the impact of identity moralization. We have been invited to revise and resubmit this paper at The Academy of Management Review. -->
+							</p>
+							<div class="more">
+								<a href="data/moralized_identities.pdf" class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://github.com/omarn33/State-of-the-Vaccine"><i class="fab fa-github"></i></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+
+					<!-- Spam Email Classifier -->
+					<div class="image">
+						<!-- Image Source: https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 -->
+						<img src="images/leader_self.avif" alt="" />
+						<div class="details">
+							<h2>Leader <span>'Self'</span></h2>
+							<p>
+								In a conceptual paper, my co-authors and I study how leaders
+								manage multiple and possibly conflicting identities.
+								<!-- In a conceptual paper and drawing upon Mead’s (1934) theory on self, my co-authors (Jesse Proctor and Michael G. Pratt) and I study how leaders construct a sense of 'self' in a dynamic co-construction process that helps them manage multiple, and possibly conflicting identities, that emerge in interaction with constituent groups (e.g., followers, peers, higher ranking others). This paper will appear as a book chapter in the “Oxford Handbook of Leadership, Followership and Identity” edited by Olga Epitropaki and Ronit Kark. -->
+							</p>
+							<div class="more">
+								<a href="data/leader_self.pdf" class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://github.com/omarn33/Spam-Email-Classifier"><i class="fab fa-github"></i></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+
+					<!-- Brick Breaker Game -->
+					<div class="image">
+						<!-- Image Source: https://images.unsplash.com/photo-1612220626692-73acba353fcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80 -->
+						<img src="images/relational_resonance.avif" alt="" />
+
+						<div class="details">
+							<h2>Relational <span>Resonance</span></h2>
+							<p>
+								In a qualitative study, my co-author and I explore how
+								individuals can work past inter-occupational identity conflicts
+								to complete complex tasks.
+							</p>
+							<div class="more">
+								<a href="data/relational_resonance.pdf" class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://github.com/omarn33/Brick-Breaker-Game"
+										><i class="fab fa-github"></i
+									></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+				</div>
+				<!--image row end-->
+
+				<!-- Image Row 3 -->
+				<div id="row">
+					<!-- Airport Delay Analysis -->
+					<div class="image">
+						<!-- Image Source: https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80" -->
+						<img src="images/organizational_identity.avif" alt="" />
+						<div class="details">
+							<h2>Organizational <span>Identity</span></h2>
+							<p>
+								In a qualitative study, my co-authors and I explore how
+								different stake holders can impact the formation and evolution
+								of an organization's identity.
+								<!-- In a qualitative inductive study of two Business Schools in India and Pakistan, my co-authors (Michael G. Pratt, Abhijeet Vadera and Prem Meghwar) and I explore how different stakeholders can impact the formation and evolution of an organization's identity. We are currently collecting data for this project.  -->
+							</p>
+							<div class="more">
+								<a href="data/organizational_identity.pdf" class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://public.tableau.com/app/profile/omar8054/viz/AirportDelayAnalysis_16242372520710/AirportDelayAnalysis"><i class="fas fa-chart-pie"></i></i></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+
+					<!-- Ideal Gas Simulator -->
+					<div class="image">
+						<!-- Image Source: https://images.unsplash.com/photo-1589759118394-f5cfe6178fd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 -->
+						<img src="images/organizational_hope.avif" alt="" />
+						<div class="details">
+							<h2>
+								Organizational <span><br />Hope</span>
+							</h2>
+							<p>
+								In a conceptual study, my co-authors and I show that collective
+								hope can both help and hinder an organization's pursuit to
+								achieve its purpose.
+								<!-- Drawing on theories on social defense mechanisms, my co-authors (Judith Clair, Katina Sawyer and Gabriel Sala) and I show that collective hope can both help and hinder an organization's pursuit to achieve its purpose. We are currently working on writing a draft for this conceptual paper. -->
+							</p>
+							<div class="more">
+								<a href="data/organizational_hope.pdf" class="read-more"
+									>More <span>Info</span></a
+								>
+								<div class="icon-links">
+									<!-- <a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://github.com/omarn33/Ideal-Gas-Simulator"
+										><i class="fab fa-github"></i
+									></a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--image card end-->
+
+					<!-- Animal Classifier -->
+					<!-- <div class="image">
+						
+						<img
+							src="images/animal.jfif"
+							alt=""
+						/>
+						<div class="details">
+							<h2>Animal <span>Classifier</span></h2>
+							<p>
+								An animal classifer that distinguishes between transportation vehicles and animals. The classifier was constructed using PyTorch.
+							</p>
+							<div class="more">
+								<a href="https://github.com/omarn33/Animal-Classifier" class="read-more">More <span>Info</span></a>
+								<div class="icon-links">
+									<a href="#"><i class="fas fa-heart"></i></a>
+									<a href="#"><i class="fas fa-paperclip"></i></a>
+									<a href="https://github.com/omarn33/Animal-Classifier"><i class="fab fa-github"></i></a>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<!--image card end-->
+				</div>
+				<!--image row end-->
+			</div>
+			<!--image card layout end-->
+
+			<div name="overlapping" class="spacer layer6"></div>
+		</section>
+
+		<!-- 
+			Skills:
+				- Icons of various languages/frameworks
+		-->
+		<section id="teaching-section">
+			<!-- Skills -->
+			<div class="row">
+				<h3 id="skills-title">TEACHING</h3>
+			</div>
+
+			<!-- Class 1 -->
+			<div class="container">
+				<div id="class-container" class="p-5 mb-5 bg-light">
+					<div class="container-fluid">
+						<!-- <h2><span>MGMT 1021</span></h2> -->
+						<h2 class="mb-1">Instructor</h2>
+						<h4 class="mb-3">
+							<span class="gray-bold">
+								MGMT 102113 |  Introduction to Organizational Behavior</></span
+							>
+						</h4>
+						<!-- <h4>Introduction to Organizational Behavior</h4> -->
+						<!-- <h5 class="">MGMT1021 - Organizational Behavior</h5> -->
+						<p class="col-12">
+							This class provides an introduction to organizational behavior,
+							generally defined as “study of both group and individual
+							performance and activity within an organization”. This course
+							covers a wide array of theories and practical applications dealing
+							with topics such as motivation, creativity, negotiations,
+							workplace emotions, decision making, leadership and organizational
+							culture.
+						</p>
+						<ul>
+							<li>Boston College</li>
+							<li>Spring 2021</li>
+							<li>Rating: 4.54 / 5.00</li>
+							<li>
+								Awarded the <strong>Donald J. White Teaching Award</strong> for
+								Best Graduate Student Teacher
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Class 2 -->
+				<div id="class-container" class="p-5 mb-5">
+					<div class="container-fluid">
+						<!-- <h2><span>MGMT 1021</span></h2> -->
+						<h2 class="mb-3">Teaching Assistantships</h2>
+						<!-- <h5 class="">MGMT1021 - Organizational Behavior</h5> -->
+						<h4 class="mb-2">MGMT 2123 Negotation</h4>
+						<ul class="mb-4">
+							<li>Boston College</li>
+							<li>Fall 2020 (Hybrid)</li>
+							<li>Professor Michael G. Pratt</li>
+						</ul>
+						<h4 class="mb-2">MGMT 102106 Organizational Behavior</h4>
+						<ul class="mb-4">
+							<li>Boston College</li>
+							<li>Spring 2019</li>
+							<li>Professor Sun Tae Kim</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Icons -->
+			<!-- <div class="row">
+				<div class="icon col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<i class="fab fa-java icon-size"></i>
+					<p>Java</p>
+				</div>
+				<div class="icon col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<i class="fab fa-python icon-size"></i>
+					<p>Python</p>
+				</div>
+				<div class="icon col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<i class="fab fa-cuttlefish icon-size"></i>
+					<p>C++</p>
+				</div>
+				<div class="icon col-xs-6 col-sm-6 col-md-3 col-lg-3">
+					<i class="fab fa-html5 icon-size"></i>
+					<p>HTML-5</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fab fa-css3-alt icon-size"></i>
+					<p>CSS-3</p>
+				</div>
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fab fa-js icon-size"></i>
+					<p>Javascript</p>
+				</div>
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fab fa-bootstrap icon-size"></i>
+					<p>Bootstrap</p>
+				</div>
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fas fa-database icon-size"></i>
+					<p>MySQL</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fas fa-server icon-size"></i>
+					<p>MongoDB</p>
+				</div>
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fas fa-project-diagram icon-size"></i>
+					<p>Neo4j</p>
+				</div>
+				<div class="icon col-lg-3 col-md-3 col-sm-6">
+					<i class="fas fa-flask icon-size"></i>
+					<p>Flask</p>
+				</div>
+				<div class="icon col-lg-3 col-md-4 col-sm-6">
+					<i class="fab fa-aws icon-size"></i>
+					<p>AWS</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="icon col-lg-3 col-md-4 col-sm-6">
+					<i class="fas fa-cloud icon-size"></i>
+					<p>GCP</p>
+				</div>
+				<div class="icon col-lg-3 col-md-4 col-sm-6" style="margin: 0">
+					<i class="fab fa-git icon-size"></i>
+					<p>Git</p>
+				</div>
+				<div class="icon col-lg-3 col-md-4 col-sm-6" style="margin: 0">
+					<i class="fab fa-github icon-size"></i>
+					<p>GitHub</p>
+				</div>
+				<div class="icon col-lg-3 col-md-4 col-sm-6" style="margin: 0">
+					<i class="fab fa-gitlab icon-size"></i>
+					<p>GitLab</p>
+				</div>
+			</div> -->
+		</section>
+
+		<!-- <div class="spacer7 layer3 flip"></div> -->
+		<!-- <div name="overlapping" class="spacer layer5"></div> -->
+		<div name="overlapping" class="spacer layer9"></div>
+		<!-- <div class="spacer layer8"></div> -->
+
+		<!-- 
+			Contact:
+				- Text
+				- Contact Icons
+		-->
+		<section id="contact-section">
+			<!-- Contact -->
+			<div class="row" style="margin: 0 auto">
+				<h3 id="contact-title">CONTACT</h3>
+			</div>
+
+			<div class="row">
+				<p>If you made it here, why not get in touch?</p>
+			</div>
+
+			<!-- Contact Info -->
+			<div class="row" style="padding: 0% 20% 0%">
+				<!-- Gmail -->
+				<a class="icon col-4" href="mailto:hamza_amir30@hotmail.com">
+					<i class="icon-size fab fa-microsoft"></i>
+					<p>Outlook</p>
+				</a>
+
+				<!-- LinkedIn -->
+				<a
+					class="icon col-4"
+					href="https://www.linkedin.com/in/hamza-khan-aa41111a/"
+				>
+					<i class="icon-size fab fa-linkedin"></i>
+					<p>LinkedIn</p>
+				</a>
+
+				<!-- GitHub -->
+				<a class="icon col-4" href="mailto:khanmy@bc.edu">
+					<i class="icon-size fab fa-google"></i>
+					<p>Gmail</p>
+				</a>
+			</div>
+		</section>
+
+		<div class="spacer layer8"></div>
+
+		<!-- Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/07ff917b01.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Script JS: Counting Animation -->
+		<script src="js/script.js"></script>
+
+		<!-- Ion Icons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+
+	<footer>
+		<div class="col">
+			<a href="#"><i class="fas fa-chevron-up"></i></a>
+			<p>© 2022 - Handcrafted by <a href="https://github.com/omarn33" style="text-decoration: none; color: #868e96">Omar Naeem</a></p>
+		</div>
+	</footer>
+</html>
